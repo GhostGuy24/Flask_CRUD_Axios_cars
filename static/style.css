@@ -1,0 +1,19 @@
+.car-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.car-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.car-list li:last-child {
+    border-bottom: none;
+}
+
+.car-list li strong {
+    color: #333;
+}
+ 
